@@ -1,5 +1,4 @@
 import { useApp } from "../context/AppContext.jsx";
-import logo from "../assets/logo.png";
 
 export default function TopBar() {
   const {
@@ -30,9 +29,6 @@ export default function TopBar() {
   return (
     <header className="topbar">
       <div className="logo">
-        <span className="logo-badge">
-          <img src={logo} alt="LigueLead" />
-        </span>
         <span className="logo-text">Base de Conhecimento</span>
       </div>
 
